@@ -1,0 +1,172 @@
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  100% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+}
+
+@keyframes swing {
+  0% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  100% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #686661;
+}
+
+#portada {
+  heigh: 100%;
+}
+
+#textos .cls-10 {
+  cursor: pointer;
+}
+
+#textos .cls-11 {
+  cursor: pointer;
+}
+
+#textos .cls-12 {
+  cursor: pointer;
+}
+
+#cuadrado #derch {
+  cursor: pointer;
+}
+
+#exclam {
+  -webkit-animation: swing ease-in-out 1.3s infinite alternate;
+          animation: swing ease-in-out 1.3s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#exclam:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#interr {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  cursor: pointer;
+}
+
+#interr:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#ojos #iris2 {
+  fill: #a6d4f6;
+}
+
+#ojos #iris1 {
+  position: absolute;
+  fill: #a6d4f6;
+}
+
+#ojos #pupila2 #pupila2 {
+  position: relative;
+}
+
+#hilos #hilo1 {
+  -webkit-animation: swing ease-in-out 1.3s infinite alternate;
+          animation: swing ease-in-out 1.3s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo2 {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo4 {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo5 {
+  -webkit-animation: swing ease-in-out 1.3s infinite alternate;
+          animation: swing ease-in-out 1.3s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo6 {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo8 {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#hilos #hilo9 {
+  -webkit-animation: swing ease-in-out 1.3s infinite alternate;
+          animation: swing ease-in-out 1.3s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#formas #negro1 {
+  -webkit-animation: swing ease-in-out 1.3s infinite alternate;
+          animation: swing ease-in-out 1.3s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#formas #negro2 {
+  -webkit-animation: swing ease-in-out 1.5s infinite alternate;
+          animation: swing ease-in-out 1.5s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#formas #gris {
+  -webkit-animation: swing ease-in-out 1.2s infinite alternate;
+          animation: swing ease-in-out 1.2s infinite alternate;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+#elice .cls-13 {
+  fill: #000;
+}
+/*# sourceMappingURL=style.css.map */
